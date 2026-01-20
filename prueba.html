@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Horari Setmanal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #aaa;
+            padding: 10px;
+        }
+        th {
+            background-color: #eee;
+        }
+
+        /* Colores por asignatura */
+        .mme { background-color: #f28c8c; }       /* MME (M0221) */
+        .ang { background-color: #f4c27c; }       /* ANG (M0156) */
+        .ipo1, .ipo2 { background-color: #ffe599; }/* IPO1/IPO2 */
+        .aw { background-color: #add8e6; }        /* AW (M0228) */
+        .som { background-color: #a2c4c9; }       /* SOM (M0222) */
+        .xl { background-color: #b6d7a8; }        /* XL (M0225) */
+        .ao { background-color: #9fc5e8; }        /* AO (M0223) */
+        .optatiu { background-color: #b4a7d6; }   /* M. Optatiu 2 */
+        .tutoria { background-color: #f9cb9c; }   /* Tutoria */
+    </style>
+</head>
+<body>
+
+    <h1>Horari Setmanal</h1>
+    <table>
+        <tr>
+            <th>Hora</th>
+            <th>Dilluns</th>
+            <th>Dimarts</th>
+            <th>Dimecres</th>
+            <th>Dijous</th>
+            <th>Divendres</th>
+        </tr>
+        <tr>
+            <td>08:00-09:00</td>
+            <td class="mme">MME (M0221)<br>Marc Garcia<br></td>
+            <td class="aw" rowspan="2">AW (M0228)<br>Josep Ruiz<br></td>
+            <td class="mme" rowspan="2">MME (M0221)<br>Marc Garcia<br></td>
+            <td class="som" rowspan="2">SOM (M0222)<br>David González<br></td>
+            <td class="optatiu" rowspan="2">M. Optatiu 2<br>Montse Montané<br></td>
+        </tr>
+        <tr>
+            <td>09:00-10:00</td>
+            <td class="ang">ANG (M0156)<br>Xènia Fuentes<br></td>
+
+        </tr>
+        <tr>
+            <td>10:00-11:00</td>
+            <td class="ipo1">IPO1 (M1709)<br>Robert Mañé<br></td>
+            <td class="ang">ANG (M0156)<br>Xènia Fuentes<br></td>
+            <td class="ao">AO (M0223)<br>Montse Montané<br></td>
+            <td class="ipo1">IPO1 (M1709)<br>Robert Mañé<br></td>
+            <td class="mme">MME (M0221)<br>Marc Garcia<br></td>
+        </tr>
+        <tr>
+            <td>11:00-11:30</td>
+            <td colspan="5">Pati</td>
+        </tr>
+        <tr>
+            <td>11:30-12:30</td>
+            <td class="xl" rowspan="2">XL (M0225)<br>Sergi Jiménez<br></td>
+            <td class="tutoria">Tutoria<br>Marc Garcia<br></td>
+            <td class="xl" rowspan="2">XL (M0225)<br>Sergi Jiménez<br></td>
+            <td class="xl">XL (M0225)<br>Sergi Jiménez<br></td>
+            <td class="ipo2" rowspan="2">IPO2 (M1710)<br>Roberto Valdés<br></td>
+        </tr>
+        <tr>
+            <td>12:30-13:30</td>
+            <td class="som">SOM (M0222)<br>David González<br></td>
+            <td class="ipo1">IPO1 (M1709)<br>Robert Mañé<br></td>
+            
+        </tr>
+        <tr>
+            <td>13:30-14:30</td>
+            <td class="ao">AO (M0223)<br>Montse Montané<br></td>
+            <td></td>
+            <td></td>
+            <td class="ao">AO (M0223)<br>Montse Montané<br></td>
+            <td class="ao">AO (M0223)<br>Montse Montané<br></td>
+        </tr>
+    </table>
+</body>
+</html>

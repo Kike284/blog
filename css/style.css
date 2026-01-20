@@ -12,3 +12,14 @@
 .colorGreen{
     color: green
 }
+
+
+
+.flex {
+    display: flex;
+}
+
+.row{
+    flex-direction: columna;
+}
+
